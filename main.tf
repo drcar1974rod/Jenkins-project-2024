@@ -7,6 +7,6 @@ resource "aws_instance" "aws_linux_2" {
     instance_type = "t2.micro"
     key_name = "ubunt_key"
     tags = {
-        Name = "aws_linux_2"
+        Name = "aws_linux_2_terraform"
     }
 }
